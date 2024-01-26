@@ -1,3 +1,5 @@
+// https://informatics.msk.ru/mod/statements/view.php?chapterid=1672#1
+
 #include <iostream>
 #include <vector>
 
