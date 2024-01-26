@@ -17,18 +17,11 @@ int main()
         map.push_back(line);
     }
 
-    // int** visited = new int*[n];
-    // for (int i = 0; i < n; i++)
-    // {
-    //     visited[i] = new int[m]{};
-    // }
-
     int n_lands = 0;
     for (int x = 0; x < n; x++)
     {
         for (int y = 0; y < m; y++)
         {
-            // if (visited[x][y] == 1) continue;
             if (map[x][y] == '+')
             {
                 n_lands++;
@@ -51,14 +44,8 @@ int main()
                             q.push(j+dy);
                         }
                     }
-
                 }
-
             }
-            // else
-            // {
-            //     // visited[x][y] = 1;
-            // }
         }
     }
     cout << n_lands << endl;

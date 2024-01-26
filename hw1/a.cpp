@@ -30,7 +30,6 @@ public:
             }
             break;
         }
-        // print();
     }
     int extract()
     {
@@ -64,7 +63,6 @@ public:
             }
             break;
         }
-        // print(); 
         return max_el;
     }
     int getSize()
